@@ -1,0 +1,57 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+bin/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Flutter ###
+.atom/
+.dart_tool/
+.idea
+.vscode/
+.packages
+.pub/
+android/
+build/
+ios/
+macos/
+windows/
+plugins/
+linux/
+fonts/
+packages
+.flutter-plugins
+# Since the current expectation is that clients are using Flutter head,
+# and Dart SDK changes unlock dependencies, pubspec.lock isn't useful.
+# Ignore it since it just creates noise. When there's a system in place
+# for versioning this project relative to Flutter, remove this.
+pubspec.lock
+
